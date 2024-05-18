@@ -24,12 +24,12 @@ void loop() {
     //Blink the candle the number of times for the digit needed
     for (int x = 0; x < comb[i]; x++) {
       digitalWrite(candles[i], HIGH)
-      delay(1000)
+      delay(500)
       digitalWrite(candles[i], LOW)
-      delay(1000)
+      delay(500)
     }
   }
 
   //reset puzzle by no candles being on for 5 seconds
-  delay(5000);
+  delay(2500);
 }
